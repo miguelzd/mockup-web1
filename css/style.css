@@ -59,6 +59,9 @@ aside {
   box-sizing: border-box;
 }
 
+aside p {
+  margin: 10px 0px;
+}
 aside nav ul {
   list-style: none;
 }
