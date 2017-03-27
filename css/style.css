@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e6e6e6;
+}
+
+header, .main, footer {
+  background: #ffffff;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+header nav {
+  background: #2E9AFE;
+}
+
+.logo {
+  padding: 10px;
+}
