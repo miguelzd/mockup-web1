@@ -5,10 +5,10 @@
 
 body {
   background: #e6e6e6;
+  font-family: "Arial", "Calibri";
 }
 
 header, .main, footer {
-  background: #ffffff;
   width: 90%;
   max-width: 1000px;
   margin: 20px auto;
@@ -16,8 +16,86 @@ header, .main, footer {
 
 header nav {
   background: #2E9AFE;
+  overflow: hidden;
 }
 
-.logo {
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a{
+  padding: 10px 20px;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  background: #2E64FE;
+}
+
+.main .article {
+  width: 68.5%;
+  margin-right: 1.5%;
+  float: left;
+}
+
+.main .article article{
+  padding: 20px;
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+
+aside {
+  color: #ffffff;
+  width: 30%;
+  float: left;
+  padding: 20px;
+  background: #FE2E64;
+  box-sizing: border-box;
+}
+
+aside nav ul {
+  list-style: none;
+}
+
+aside nav ul li a{
+  padding: 5px 0px;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+aside nav ul li a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  background: #2E2E2E;
+  color: #D8D8D8;
+  clear: both;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.bannerLogo {
   padding: 10px;
+  background: #ffffff;
+  position: relative;
+}
+
+.logo{
+  border-radius: 50% 50% 50% 50%;
+  box-shadow: 2px 2px 5px #999;
+}
+.titulo {
+  position: absolute;
+  top: 38%;
+  bottom: ;
+  left: 180px;
+  right: ;
 }
